@@ -12,7 +12,7 @@ const Tips = () => {
         <Tip text='50' />
 
         <input
-          className='rounded-md placeholder:text-darkGrayishCyan w-24 pr-3 text-right  outline-none focus:ring-[1.5px] focus:ring-strongCyan cursor-pointer bg-veryLightGrayishCyan'
+          className='rounded-md placeholder:text-darkGrayishCyan sm:w-24 w-[140px] pr-3 text-right  outline-none focus:ring-[1.5px] focus:ring-strongCyan cursor-pointer bg-veryLightGrayishCyan'
           type='text'
           placeholder='Custom'
         />
