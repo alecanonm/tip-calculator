@@ -6,7 +6,7 @@ const Home = () => {
         <span>SPLI</span>
         <span>TTER</span>
       </h1>
-      <section className='bg-white p-8 flex-col gap-5   flex sm:flex-row rounded-2xl '>
+      <section className='bg-white p-8 flex-col gap-5 flex sm:flex-row rounded-2xl '>
         <EnteredData />
         <ShowData />
       </section>

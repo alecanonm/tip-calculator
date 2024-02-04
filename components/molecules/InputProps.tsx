@@ -11,6 +11,7 @@ const InputProps = () => {
         height={11}
         alt='dollar'
         placeholder='0'
+        type='bill'
       />
     </div>
   )

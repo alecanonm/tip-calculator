@@ -11,6 +11,7 @@ const InputCantPeople = () => {
         height={11}
         alt='persona'
         placeholder='0'
+        type='people'
       />
     </div>
   )

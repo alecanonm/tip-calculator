@@ -2,6 +2,7 @@ import { Space_Mono } from 'next/font/google'
 import type { Metadata } from 'next'
 import React from 'react'
 import '../styles/globals.css'
+import { TipsProvider } from '@/context/TipsContext'
 
 const space_mono = Space_Mono({
   subsets: ['latin'],
@@ -23,7 +24,7 @@ export default function RootLayout({
     <html lang='en'>
       <body className={space_mono.className}>
         <div className='lg:h-screen md:h-screen flex flex-col p-8 bg-lightGrayishCyan'>
-          {children}
+          <TipsProvider>{children}</TipsProvider>
         </div>
       </body>
     </html>
