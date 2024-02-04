@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={space_mono.className}>
-        <div className='sm:h-screen flex flex-col p-8 bg-lightGrayishCyan'>
+        <div className='lg:h-screen md:h-screen flex flex-col p-8 bg-lightGrayishCyan'>
           {children}
         </div>
       </body>
